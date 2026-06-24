@@ -1,0 +1,34 @@
+/* Base styles modified with 3 distinct custom styling changes:
+   1. Heading and strong element colors changed from purple to deep teal (#0e7490).
+   2. Padding on lists adjusted from '5px 20px' to '12px 28px' for improved spacing.
+   3. Unordered list border size increased to 3px and style changed to dashed; ordered list border size increased to 3px.
+*/
+
+h1, h2 {
+  color: #0e7490; /* Change 1: Changed from purple to deep teal */
+}
+
+h1, strong {
+  color: #0e7490; /* Change 1: Changed from purple to deep teal */
+}
+
+p {
+  color: gray;
+}
+
+em {
+  color: gray;
+}
+
+ul {
+  border: 3px dashed orange; /* Change 3: Changed from 2px solid orange to 3px dashed orange */
+}
+
+ol {
+  border: 3px solid purple; /* Change 3: Changed from 2px solid purple to 3px solid purple */
+}
+
+ol, ul {
+  padding: 12px 28px; /* Change 2: Adjusted padding from 5px 20px to 12px 28px */
+  border-radius: 4px;
+}
